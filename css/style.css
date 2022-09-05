@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  padding-bottom: 5px;
 }
 
 header{
@@ -20,7 +21,7 @@ thead{
 }
 
 
-h4, .date{
+h3, .date{
   color: #727272;
 }
 
@@ -45,9 +46,6 @@ h4, .date{
   margin-top: 10px;
 }
 
-.intestazione p{
-  font-size: .75rem;
-}
 
 tbody .row-celeste{
   background-color: #B1E2EF;
@@ -63,9 +61,10 @@ div span{
 }
 
 #pc{
+  margin-bottom: 10px;
   font-size: 30px;
   width: 300px;
-  height: 250px;
+  height: 200px;
   background-size: cover;
   background-position: center;
   background-image: url(../img/monitor.jpg);
@@ -74,8 +73,12 @@ div span{
 #monitor{
   font-size: 30px;
   width: 300px;
-  height: 250px;
+  height: 200px;
   background-size: cover;
   background-position: center;
   background-image: url(../img/graph.jpg);
+}
+
+.footer{
+  padding-top: 20px;
 }
