@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+main{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* INTESTAZIONE */
 header{
   background-color: #41A1DF;
@@ -33,8 +38,13 @@ header{
     color: #41A1DF;
   }
 
+  .fonti{
+    font-size: .60rem;
+  }
+  
   .date{
-    font-size: .55rem;
+    color:#727272;
+    font-size: .80rem;
   }
 
   .evidence{
