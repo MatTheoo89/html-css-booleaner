@@ -41,7 +41,7 @@ header{
   .fonti{
     font-size: .60rem;
   }
-  
+
   .date{
     color:#727272;
     font-size: .80rem;
@@ -59,6 +59,7 @@ header{
 
   /* TABLE */
   table{
+    border-spacing:  0;
     text-align: left;
     width: 100%;
   }
