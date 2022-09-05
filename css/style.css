@@ -43,3 +43,26 @@ tbody .row-celeste{
 .evidence{
   background-color: yellow;
 }
+
+div span{
+  color: white;
+  font-weight: bold;
+}
+
+#pc{
+  font-size: 30px;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/monitor.jpg);
+}
+
+#monitor{
+  font-size: 30px;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/graph.jpg);
+}
