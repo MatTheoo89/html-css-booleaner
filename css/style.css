@@ -15,6 +15,7 @@ thead{
   background-color: #41A1DF;
 }
 
+
 h4, .date{
   color: #727272;
 }
@@ -37,4 +38,8 @@ h4, .date{
 
 tbody .row-celeste{
   background-color: #B1E2EF;
+}
+
+.evidence{
+  background-color: yellow;
 }
