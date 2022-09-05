@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+header{
+background-color: #41A1DF;
+}
+
 main{
   padding: 10px;
 }
@@ -26,6 +30,15 @@ h4, .date{
 
 .date{
   font-size: .75rem;
+}
+
+.pattern{
+  background-image: url(../img/pattern.png);
+}
+
+#logo{
+  width: 300px;
+  height: 150px;
 }
 
 .img{
