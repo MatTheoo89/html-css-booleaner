@@ -59,10 +59,8 @@ header{
 
   /* TABLE */
   table{
-  
     border-spacing:  0;
     text-align: left;
-    width: 100%;
   }
   thead{
     color: white;
@@ -71,6 +69,14 @@ header{
 
   tbody .row-color{
     background-color: #B1E2EF;
+  }
+
+  .cella-stretta{
+    width: 14%;
+  }
+
+  .cella-larga{
+    width: 84%;
   }
 
 
