@@ -1,84 +1,94 @@
+/* RESET MARGINI CSS */
 *{
   margin: 0;
-  padding-bottom: 5px;
 }
 
+/* INTESTAZIONE */
 header{
-background-color: #41A1DF;
-}
-
-main{
-  padding: 10px;
-}
-
-h1{
-  font-size: 60px;
-}
-
-thead{
-  color: white;
   background-color: #41A1DF;
-}
+  }
+
+  .pattern{
+    background-image: url(../img/pattern.png);
+  }
+
+  #logo{
+    width: 300px;
+    height: 150px;
+  }
+
+  h1{
+    font-size: 60px;
+  }
+
+  h3{
+    color:#727272;
+  }
+
+  .img{
+    margin-top: 10px;
+  }
+
+  #author{
+    color: #41A1DF;
+  }
+
+  .date{
+    font-size: .55rem;
+  }
+
+  .evidence{
+    background-color: yellow;
+  }
+
+  .space{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
 
-h3, .date{
-  color: #727272;
-}
+  /* TABLE */
+  table{
+    text-align: left;
+    width: 100%;
+  }
+  thead{
+    color: white;
+    background-color: #41A1DF;
+  }
 
-#author{
-  color: #3F9FDE;
-}
-
-.date{
-  font-size: .75rem;
-}
-
-.pattern{
-  background-image: url(../img/pattern.png);
-}
-
-#logo{
-  width: 300px;
-  height: 150px;
-}
-
-.img{
-  margin-top: 10px;
-}
+  tbody .row-color{
+    background-color: #B1E2EF;
+  }
 
 
-tbody .row-celeste{
-  background-color: #B1E2EF;
-}
 
-.evidence{
-  background-color: yellow;
-}
 
-div span{
-  color: white;
-  font-weight: bold;
-}
 
-#pc{
-  margin-bottom: 10px;
-  font-size: 30px;
-  width: 300px;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../img/monitor.jpg);
-}
 
-#monitor{
-  font-size: 30px;
-  width: 300px;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../img/graph.jpg);
-}
 
-.footer{
-  padding-top: 20px;
-}
+
+  /* FOOTER */
+  div span{
+    color: white;
+    font-weight: bold;
+  }
+
+  #pc{
+    margin-bottom: 10px;
+    font-size: 30px;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/monitor.jpg);
+  }
+  
+  #monitor{
+    font-size: 30px;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/graph.jpg);
+  }
