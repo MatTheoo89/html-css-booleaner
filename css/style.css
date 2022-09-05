@@ -85,6 +85,9 @@ header{
     color: white;
     font-weight: bold;
   }
+  #pad{
+    padding-bottom: 10px;
+  }
 
   #pc{
     margin-bottom: 10px;
